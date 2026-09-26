@@ -1,0 +1,92 @@
+# Gemini 3.8 Flash Extended Thinking (in web app)
+
+```TASK 1 — ORDER TRACKING SCREEN ⭐
+
+Design and implement a modern, professional mobile Order Tracking screen for an e-commerce application.
+
+The current application only displays:
+- Processing
+- Shipped
+- Out for Delivery
+- Delivered
+
+Users report that the current status is difficult to understand. Redesign and implement the experience so delivery status is clear at a glance.
+
+Requirements:
+- Clear visual delivery progress/timeline
+- Current order status
+- Estimated delivery date/time
+- Order/product summary
+- Clear way to contact support
+- Appropriate loading/empty/error states where relevant
+- Responsive design for approximately 360–430px mobile widths
+- Clean spacing, typography, hierarchy, and visual consistency
+- Meaningful interactions such as viewing order details, contacting support, or reporting a delivery issue
+
+The UI must handle all three situations:
+
+1. Delayed Order — the estimated delivery time has passed or the order is significantly delayed. Clearly communicate the delay and provide an appropriate next step.
+
+2. Delivered but Not Received — the system says the order was delivered, but the customer reports they did not receive it. Provide an appropriate next step or support action.
+
+3. Tracking Not Available Yet — the order exists, but tracking information is not available yet. Avoid an empty or broken-looking screen.
+
+Show how the same product experience adapts to all three states.
+
+Technical requirements are flexible: React.js / Next.js / another frontend framework; CSS / Tailwind / CSS Modules / another styling approach; any reasonable UI/icon library. Backend integration is not required — mock/static data is acceptable.
+
+Submission (both fields below are required): a live deployed URL, accessible without the evaluator running the project locally, and a GitHub repository URL whose README contains brief setup/run instructions.```
+
+
+Job Task Overview
+
+
+Frontend Technologies
+   CSS Framework: Tailwind CSS will be utilized.
+   UI Component Library: Shadcn is recommended for its high-quality output.
+       Note: The default color theme for Shadcn should aim for an uncommon aesthetic.
+
+UI Icon Library
+   Decision Required: An icon library needs to be selected.
+   Options Under Consideration:
+       Google Icons
+       Daisy UI (clarification needed on its icon library capabilities)
+       Font Awesome
+
+Data Handling
+   Backend Integration: Not required for this task.
+Data Source: Mock static data will be provided and used due to time constraints.
+
+-------------------
+
+okay. now created a detailed plan file for an ai agent with phases and each phase should have detailed task list. also details about the visual element and experience, libraries, etc
+
+-------------------
+
+# GLM 5.3 Flash (in Claude Code)
+
+/frontend-design:frontend-design check @docs/2026-09-26-init.md and @AGENTS.md
+
+use multiple subagents to code. when all coding part is completed, do a brief review and fix if anything needed fix.
+
+make sure to document your desicions in docs folder when needed.
+
+-------------------
+
+the bottom tabs aren't visible on all heights when changed devices. use context 7 for usual component that we can use here or update the implementation
+
+-------------------
+
+make commits based on development order
+
+-------------------
+
+need to deploy on vercel. anything extra needed?
+
+-------------------
+
+create a public repo on github using ms-jahan account and push
+
+# Muse Spark 1.3 Free (in OpenCode)
+
+check the docs first. then check the implementation if was proper or faulty. you may run the server and test using agent-browser (check ~/AB.md)
